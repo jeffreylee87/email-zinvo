@@ -20,6 +20,29 @@
                 display: inline-block;
             }
         }
+        @media only screen and (max-width: 599px) {
+        td[class="pattern"] table { width: 100%; }
+        td[class="pattern"] img {
+            width: 100%;
+            height: auto !important;
+        }
+	    td[class="pattern"] .col{
+	        width: 50%;
+	    }
+	}
+    @media only screen and (max-width: 450px) {
+        td[class="pattern"] .col{
+            width: 100%;
+            display: block;
+        }
+        td[class="pattern"] .col1{
+            margin-bottom: 16px;
+        }
+        td[class="pattern"] .description span {
+            display: block;
+            max-width: 300px;
+        }
+    }
     </style>
 </head>
 
@@ -81,18 +104,18 @@
         </tr>
         <tr>
             <!-- EXAMPLE RUN!!!!!! CHANGE IT WITH ACTUAL CODE -->
-            <td class="main_cta" style="background: white; padding: 0px 28% 50px 25%;">
+            <td align="center"class="main_cta" style="background: white; padding: 0px 26% 50px 26%;">
                 <a href="https://zinvowatches.com/"><img src="./TEST!!!!!!!!!.jpg" alt="" style="display: block; width: 279px; height: 346px" /></a>
             </td>
         </tr>
         <tr>
-            <td class="main_cta" style="background: white; padding: 0px 28% 48px 25%;">
+            <td align="center"class="main_cta" style="background: white; padding: 0px 26% 48px 26%;">
                 <p style="text-align: center;">Blade Ethos</p>
             </td>
         </tr>
         <!-- EXAMPLE RUN!!!!!! CHANGE IT WITH ACTUAL CODE ENDS HEREE!!!!!!!!! -->
         <tr>
-            <td class="main_cta" style="background: white; padding: 0px 17% 56px 17%;">
+            <td align="center"class="main_cta" style="background: white; padding: 0px 17% 56px 17%;">
                 <a href="https://zinvowatches.com/">
                     <div style="background: #FFC822; padding: 28px 19% 28px 19%;"><img src="./assets/Complete your order@2x.png"
                             alt="" style="display: block; width: 239px; height: 14px;" /></div>
@@ -100,7 +123,7 @@
             </td>
         </tr>
         <tr>
-            <td class="main_cta" style="background: white; padding: 0px 21% 23px 21%">
+            <td align="center"class="main_cta" style="background: white; padding: 0px 21% 23px 21%">
                 <a href="https://zinvowatches.com/"><img src="./assets/Get Now, Pay Later!@2x.png" alt="" style="display: block; width: 348px; height: 24px" /></a>
             </td>
         </tr>
@@ -123,7 +146,7 @@
         </tr> -->
 
         <tr>
-                <td class="main_nav" width="345" style="background: #FFFFFF; padding: 0px 21% 57px 22%"> 
+                <td align="center"class="main_nav" width="345" style="background: #FFFFFF; padding: 0px 21% 57px 22%"> 
                     <div style="display: inline-block; margin-right: 5%">
                             <a href="https://zinvowatches.com/"><img src="./assets/Interest free paymen@2x.png" alt=""
                                 style="display: block; width: 235px; height: 17px;" /></a>
